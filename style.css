@@ -17,7 +17,7 @@ body.demo1 {
 
 body.demo1 {
 	margin: 0;
-	margin-bottom: 200px;
+	margin-bottom: 200px; /* = footer hgt */
 }
 
 /* ⇢ style for "Footer Reveal on Elements" demo. ⇠ */
@@ -25,8 +25,9 @@ body.demo1 {
 
 article {
 	background-image: linear-gradient(to bottom, #FEF9F3 calc(100% - 120px), transparent 0);
+	/* 120px = 100px (footer hgt) + 20px (padding) */
 	padding: 20px 40px;
-	margin-bottom: 80px;
+	margin-bottom: 80px; /* = footer's bottom value */
 }
 
 article>footer {
